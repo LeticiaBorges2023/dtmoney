@@ -1,0 +1,45 @@
+/* BODY É TODO O FUNDO DO CSS */
+body{
+    background-color: #3b3b3b;
+    margin: 0px;  /* remove toda a margem do site, a margin joga pra frente o elemnto*/
+    padding: 0px;     /*padding é o espaçamento entre o item e o site*/
+}
+
+header{
+    background-color: black;
+    padding: 10px;
+    display: flex;   /*alinha os itens na tela*/
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    display:inline-block; /*DISPLAY É A FORMA QUE ELES SERÃO DISPTRIBUIDOS VISUALMENTE*/
+}
+
+a{
+    color:white;
+    text-decoration:none; /*tira o sdublinhado das palavras*/
+     font-size: 20px;
+    }
+    a:hover{ /*coloca cor ao passar o mouse*/
+        color: rgb(233, 52, 83); 
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height: 80vh; /*altura*/
+      }
+
+      footer{
+        background-color: black;
+        padding: 10px;
+        display: flex;
+        justify-content: end;
+      }
+p{
+    color:white;
+    margin-right: 10px;
+}
+
